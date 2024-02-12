@@ -1,0 +1,148 @@
+.container{
+    width: 607px;
+    height: 100%;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    background-image: linear-gradient(180deg, #093d60 0%, #607f86 100%);
+}
+
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 60px;
+}
+
+.top-bar input{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    background-color: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: rgb(80, 78, 78);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: #ebfffc;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.city{
+    padding: 10px;
+}
+
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .weather-image img{
+    width: 200px;
+  }
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+
+.data-container{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    gap: 8px;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon{
+    margin-top: 12px;
+}
+
+@media (max-width:480px) {
+    .container{
+        width: 88%;
+        padding: 0px 20px;
+        height: 100%;
+        border-radius: 15px;
+        padding-bottom: 50px;
+        margin: 10px 5px 0px 5px;
+        overflow: hidden;
+    }
+    
+    .weather-image{
+        margin-top: 60px;
+    }
+
+    .data-container{
+        margin-top: 100px;
+        gap: 20px;
+    }
+
+    .data{
+        font-size: 22px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+
+    .search-icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .top-bar input{
+        width: 200px;
+        height: 25px;
+        padding-left: 30px;
+
+    }
+    .element{
+       gap: 10px;
+    }
+}
